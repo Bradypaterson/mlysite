@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const overlay = document.querySelector('.overlay');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 100) {
-            header.classList.add('bg-[#476873]', 'backdrop-blur-xl', 'shadow-2xl', 'nav-blur');
+            header.classList.add('bg-neutral-400', 'backdrop-blur-xl', 'shadow-2xl', 'nav-blur');
             if (overlay) overlay.classList.remove('hidden');
         } else {
-            header.classList.remove('bg-[#476873]', 'backdrop-blur-xl', 'shadow-2xl', 'nav-blur');
+            header.classList.remove('bg-neutral-400', 'backdrop-blur-xl', 'shadow-2xl', 'nav-blur');
             if (overlay) overlay.classList.add('hidden');
         }
     });
