@@ -59,7 +59,7 @@
         
         .text-shadow-lg { text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
         .glass { backdrop-filter: blur(10px); }
-        .gradient-text { background: linear-gradient(135deg, #F39901, #00A0D2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gradient-text { background: linear-gradient(0deg, #F39901, #00A0D2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         
         .parallax { transform: translateZ(0); }
         .service-card { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
@@ -138,11 +138,11 @@
                     </p>
                 </div>
                 <div class="animate-fade-in-up flex flex-col sm:flex-row gap-6" style="animation-delay: 0.6s;">
-                    <a href="#contact" class="group relative overflow-hidden bg-brand-orange text-white px-8 py-4 rounded-full font-semibold hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+                    <a href="#contact" class="group relative overflow-hidden bg-transparent border-2 border-[#F39901] text-[#F39901] px-8 py-4 rounded-full font-semibold hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
                         <span class="relative z-10">GUS</span>
                         <div class="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></div>
                     </a>
-                    <a href="#services" class="group relative overflow-hidden bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-charcoal transition-all duration-300 hover:-translate-y-1">
+                    <a href="#services" class="group relative overflow-hidden bg-transparent border-2 border-[#00A0D2] text-[#00A0D2] px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-charcoal transition-all duration-300 hover:-translate-y-1">
                         <span class="relative z-10">General Contracting</span>
                     </a>
                 </div>
@@ -160,13 +160,13 @@
 
             <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
                 <!-- Kitchen Card -->
-                <div class="service-card scroll-animate group relative bg-[url('photos/basement.webp')] bg-cover bg-center rounded-3xl overflow-hidden h-96 cursor-pointer">
+                <div class="service-card scroll-animate group relative bg-[url('photos/kitchen.jpg')] bg-cover bg-center rounded-3xl overflow-hidden h-96 cursor-pointer">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-orange/90 to-brand-orange/70 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                     <div class="relative z-10 h-full p-8 flex flex-col justify-between">
-                        <div>
-                            <div class="w-16 h-16 bg-brand-orange/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
+                        <div class="flex justify-center">
+                            <!-- <div class="w-16 h-16 bg-brand-orange/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
                                 <span class="text-3xl">🍳</span>
-                            </div>
+                            </div> -->
                             <h3 class="text-3xl font-bold text-charcoal group-hover:text-white mb-4 transition-colors">Kitchens</h3>
                         </div>
                         <div class="transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
@@ -181,13 +181,13 @@
                 </div>
 
                 <!-- Basement Card -->
-                <div class="service-card scroll-animate group relative bg-[url('photos/bath.jpg')] bg-cover bg-center rounded-3xl overflow-hidden h-96 cursor-pointer">
+                <div class="service-card scroll-animate group relative bg-[url('photos/basement.webp')] bg-cover bg-center rounded-3xl overflow-hidden h-96 cursor-pointer">
                     <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/90 to-brand-blue/70 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                     <div class="relative z-10 h-full p-8 flex flex-col justify-between">
-                        <div>
-                            <div class="w-16 h-16 bg-brand-blue/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
+                        <div class="flex justify-center">
+                            <!-- <div class="w-16 h-16 bg-brand-blue/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
                                 <span class="text-3xl">🏠</span>
-                            </div>
+                            </div> -->
                             <h3 class="text-3xl font-bold text-charcoal group-hover:text-white mb-4 transition-colors">Basements</h3>
                         </div>
                         <div class="transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
@@ -205,10 +205,10 @@
                 <div class="service-card scroll-animate group relative bg-[url('photos/bath.jpg')] bg-cover bg-center rounded-3xl overflow-hidden h-96 cursor-pointer">
                     <div class="absolute inset-0 bg-gradient-to-br from-gray-800/90 to-charcoal/70 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                     <div class="relative z-10 h-full p-8 flex flex-col justify-between">
-                        <div>
-                            <div class="w-16 h-16 bg-gray-800/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
+                        <div class="flex justify-center">
+                            <!-- <div class="w-16 h-16 bg-gray-800/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
                                 <span class="text-3xl">🛁</span>
-                            </div>
+                            </div> -->
                             <h3 class="text-3xl font-bold text-charcoal group-hover:text-white mb-4 transition-colors">Bathrooms</h3>
                         </div>
                         <div class="transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
@@ -226,10 +226,10 @@
                 <div class="service-card scroll-animate group relative bg-[url('photos/deck.jpg')] bg-cover bg-center rounded-3xl overflow-hidden h-96 cursor-pointer">
                     <div class="absolute inset-0 bg-gradient-to-br from-green-700/90 to-green-600/70 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                     <div class="relative z-10 h-full p-8 flex flex-col justify-between">
-                        <div>
-                            <div class="w-16 h-16 bg-green-700/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
+                        <div class="flex justify-center">
+                            <!-- <div class="w-16 h-16 bg-green-700/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/20 transition-colors">
                                 <span class="text-3xl">🏗️</span>
-                            </div>
+                            </div> -->
                             <h3 class="text-3xl font-bold text-charcoal group-hover:text-white mb-4 transition-colors">Decks & Fences</h3>
                         </div>
                         <div class="transform translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
